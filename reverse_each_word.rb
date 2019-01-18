@@ -1,6 +1,6 @@
 def reverse_each_word(string)
-words = []
-words << string.reverse
-puts(words)
+words = string.split(" ")
+
+
 end
 reverse_each_word("Johnny, jack jim, black""tell em")
