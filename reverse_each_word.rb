@@ -1,6 +1,6 @@
 def reverse_each_word(string)
 new_array = []
-new_array << string
-puts (string.reverse)
+new_array << string.Reverse
+puts(new_array)
 end
 reverse_each_word("Johnny, jack jim, black""tell em")
