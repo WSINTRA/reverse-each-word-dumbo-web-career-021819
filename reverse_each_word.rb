@@ -1,6 +1,7 @@
 def reverse_each_word(string)
 words = []
 words << string
+put (words)
 words.reverse_each {|x| puts(x)}
 puts (words)
 end
