@@ -1,7 +1,7 @@
 def reverse_each_word(string)
 new_array = []
 new_array << string
-new_array.each {|x| x.reverse }
+new_array.each {|x| new_array<<x.reverse }
 
 puts(new_array)
 end
