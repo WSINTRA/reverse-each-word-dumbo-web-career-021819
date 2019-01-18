@@ -1,7 +1,8 @@
 def reverse_each_word(string)
 new_array = []
 new_array << string
-new_array.each {|x| new_array << x.reverse }
+nextarr = []
+new_array.each {|x| nextarr << x.reverse }
 
 puts(new_array)
 end
